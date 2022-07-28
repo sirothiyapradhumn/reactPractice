@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Us from './Components/Us';
+import Ue1 from './Components/Ue1';
+import Ue2 from './Components/Ue2';
+import Infinite from './Components/Infinite';
+import Ue3 from './Components/Ue3';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //<Us></Us>
+    //<Ue1></Ue1>
+    //<Ue2></Ue2>
+    //<Infinite></Infinite>
+    <Ue3></Ue3>
   );
 }
 
