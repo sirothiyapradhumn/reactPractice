@@ -13,9 +13,10 @@ import { useState } from 'react';
 function App() {
 
   const [theme, setTheme] = useState(false);
+  const [count, setCount] = useState(10);
 
   return (
-    <context.Provider value={theme}>
+    <context.Provider value={{theme, count}}>
       <button onClick={()=>setTheme(!theme)}> Change theme </button>
       {/* //<Us></Us>
       //<Ue1></Ue1>
